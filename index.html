@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#8b5cf6" />
+  <meta name="description" content="A professional Punjabi-English Girlfriend’s Day surprise for Muskan, made by Love." />
+  <title>Happy Girlfriend’s Day, Muskan ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Gurmukhi:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="petals" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#start"><span>♡</span> Girlfriend’s Day • Muskan × Love</a>
+    <div class="nav-actions">
+      <button class="sound-btn" id="musicToggle" aria-label="Play or pause song">♪ <span id="musicLabel">ਸਾਡਾ ਗਾਣਾ</span></button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="screen intro" id="start">
+      <div class="orbit o1"></div><div class="orbit o2"></div>
+      <div class="eyebrow reveal">HAPPY GIRLFRIEND’S DAY • ਸਿਰਫ਼ MUSKAN ਲਈ</div>
+      <div class="intro-card reveal tilt-card">
+        <span class="tape tape-a"></span>
+        <img src="assets/cute-couple.svg" class="intro-sticker" alt="Cute couple illustration" />
+        <p class="mini">GIRLFRIEND’S DAY SPECIAL • 24.09.2025 ਤੋਂ</p>
+        <h1>Happy Girlfriend’s Day, Muskan.<br><em>ਅੱਜ ਦਾ ਸਾਰਾ spotlight ਸਿਰਫ਼ ਤੇਰੇ ਲਈ ਆ.</em></h1>
+        <p class="lead">ਇੱਕ plain “Happy Girlfriend’s Day” message ਬਹੁਤ basic ਸੀ… ਤੇ ਮੇਰੀ favourite girl ਲਈ effort ਵੀ favourite-level ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ.</p>
+        <button class="primary" id="beginBtn">Open your Girlfriend’s Day surprise →</button>
+      </div>
+      <p class="scroll-hint">scroll ਕਰ, Girlfriend’s Day queen ↓</p>
+    </section>
+
+    <section class="screen story" id="story">
+      <div class="section-tag reveal">GIRLFRIEND’S DAY • CHAPTER 01</div>
+      <div class="story-grid">
+        <div class="story-copy reveal">
+          <p class="kicker">24 ਸਤੰਬਰ 2025</p>
+          <h2>ਉਹ ਦਿਨ, ਜਦੋਂ ਮੇਰੀ life ਨੇ quietly ਕਿਹਾ — <em>“ਹਾਂ, ਇਹ ਵਾਲੀ special ਏ.”</em></h2>
+          <p>ਸੱਚ ਦੱਸਾਂ ਤਾਂ ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ ਸੀ ਕਿ ਇੱਕ date calendar ਤੇ ਇੰਨੀ pretty ਲੱਗ ਸਕਦੀ ਆ. ਪਰ ਹੁਣ 24 September ਸਿਰਫ਼ date ਨਹੀਂ — ਇਹ ਸਾਡੀ little origin story ਆ.</p>
+          <div class="quote-chip">“ਤੈਨੂੰ ਮਿਲ ਕੇ ਲੱਗਿਆ, universe ਨੇ finally good taste ਦਿਖਾਈ.”</div>
+        </div>
+        <div class="date-poster reveal tilt-card">
+          <span class="poster-top">THE DAY WE MET</span>
+          <strong>24</strong>
+          <span class="month">SEPTEMBER • 2025</span>
+          <div class="tiny-note">saved in my heart, no cloud backup needed ♡</div>
+          <img src="assets/moment-2.svg" alt="Cute memory illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section class="screen moments" id="moments">
+      <div class="section-tag reveal">GIRLFRIEND’S DAY • OUR MOMENTS</div>
+      <h2 class="center reveal">ਕੁਝ frames, ਜਿਹੜੇ ਮੈਂ <em>repeat ਤੇ ਜੀ ਸਕਦਾ.</em></h2>
+      <div class="carousel reveal">
+        <button class="round arrow" id="prevMoment" aria-label="Previous memory">←</button>
+        <article class="memory-card tilt-card">
+          <span class="tape tape-b"></span>
+          <div class="memory-visual"><img id="momentImage" src="assets/moment-1.svg" alt="Cute illustrated memory" /></div>
+          <div class="memory-meta"><b id="momentCounter">01 / 03</b><span>OUR LITTLE ALBUM</span></div>
+          <h3 id="momentTitle">ਮੇਰੀ favourite notification: ਤੇਰਾ message.</h3>
+          <p id="momentText">ਤੂੰ “ਕੀ ਕਰ ਰਿਹਾ?” ਪੁੱਛੇਂ ਤੇ ਮੇਰਾ ਦਿਲ full attendance ਲਾ ਦੇਵੇ.</p>
+        </article>
+        <button class="round arrow" id="nextMoment" aria-label="Next memory">→</button>
+      </div>
+      <div class="dots" id="momentDots"></div>
+    </section>
+
+    <section class="screen reasons" id="reasons">
+      <div class="section-tag reveal">GIRLFRIEND’S DAY • WHY YOU?</div>
+      <h2 class="center reveal">ਤੇਰੇ ਵਿੱਚ ਕੀ special ਆ?<br><em>ਥੋੜ੍ਹਾ time ਲੱਗੂ, list ਲੰਮੀ ਆ.</em></h2>
+      <div class="reason-grid">
+        <article class="reason reveal tilt-card"><span>🌷</span><h3>ਤੇਰੀ ਹੰਸੀ</h3><p>ਮੇਰਾ favourite sound effect. ਬਿਨਾ subscription ਦੇ mood premium ਕਰ ਦਿੰਦੀ.</p></article>
+        <article class="reason reveal tilt-card"><span>🫶</span><h3>ਤੇਰਾ care</h3><p>ਤੂੰ “ਖਾਣਾ ਖਾਧਾ?” ਪੁੱਛਦੀ ਏਂ ਤੇ ਮੈਂ internally husband mode ਚਲਾ ਲੈਂਦਾ.</p></article>
+        <article class="reason reveal tilt-card"><span>✨</span><h3>ਤੇਰੀ vibe</h3><p>Soft ਵੀ, savage ਵੀ. Cute ਵੀ, full dangerous ਵੀ. Perfect combo, honestly.</p></article>
+        <article class="reason reveal tilt-card"><span>🏡</span><h3>ਤੇਰੇ ਨਾਲ ਵਾਲਾ ਸਕੂਨ</h3><p>ਜਿੱਥੇ ਤੂੰ, ਓਥੇ awkward silence ਵੀ comfortable ਲੱਗਦੀ.</p></article>
+        <article class="reason reveal tilt-card"><span>📱</span><h3>ਤੇਰੇ random texts</h3><p>ਮੇਰਾ screen-time report ਤੈਨੂੰ blame ਕਰਦਾ. ਮੈਂ ਨਹੀਂ.</p></article>
+        <article class="reason reveal tilt-card"><span>💜</span><h3>ਤੇਰਾ ਹੋਣਾ</h3><p>ਬੱਸ. ਇਹ reason ਆਪਣੇ ਆਪ ਵਿੱਚ complete sentence ਆ.</p></article>
+      </div>
+    </section>
+
+    <section class="screen banter" id="banter">
+      <div class="section-tag reveal">GIRLFRIEND’S DAY BONUS • RELATIONSHIP REPORT</div>
+      <div class="report reveal">
+        <div class="report-head"><div><p>OFFICIAL ANALYSIS</p><h2>Muskan ਬਾਰੇ highly scientific facts</h2></div><span class="verified">✓ verified by Love</span></div>
+        <div class="stat"><span>Cutie level</span><div><i style="--w:98%"></i></div><b>98%</b></div>
+        <div class="stat"><span>Gussa level</span><div><i style="--w:76%"></i></div><b>depends 😭</b></div>
+        <div class="stat"><span>Miss ਕਰਨ ਦੀ speed</span><div><i style="--w:100%"></i></div><b>instant</b></div>
+        <div class="stat"><span>ਮੇਰੇ ਦਿਲ ਤੇ ownership</span><div><i style="--w:100%"></i></div><b>100%</b></div>
+        <p class="report-note">Disclaimer: ਇਹ data bias ਹੋ ਸਕਦਾ, ਕਿਉਂਕਿ researcher ਤੈਨੂੰ ਬਹੁਤ ਪਿਆਰ ਕਰਦਾ.</p>
+      </div>
+    </section>
+
+    <section class="screen letter-section" id="letter">
+      <div class="section-tag reveal">GIRLFRIEND’S DAY LETTER • ਸਿਰਫ਼ ਤੇਰੇ ਲਈ</div>
+      <article class="letter-paper reveal">
+        <img src="assets/cat-flower.svg" class="letter-sticker" alt="Cute character holding a flower" />
+        <p class="letter-label">HAPPY GIRLFRIEND’S DAY • TO: MUSKAN • FROM: LOVE</p>
+        <h2>Happy Girlfriend’s Day, ਮੇਰੀ ਸੋਹਣੀ Muskan,</h2>
+        <p>ਅੱਜ Girlfriend’s Day ਤੇ ਮੈਂ ਤੈਨੂੰ ਸਿਰਫ਼ wish ਨਹੀਂ ਕਰਨਾ ਚਾਹੁੰਦਾ ਸੀ — ਮੈਂ ਤੈਨੂੰ feel ਕਰਵਾਉਣਾ ਚਾਹੁੰਦਾ ਸੀ ਕਿ ਤੂੰ ਕਿੰਨੀ special ਏਂ. Fancy words side ਤੇ; ਸੱਚ simple ਆ — <strong>ਤੂੰ ਮੇਰੇ ਦਿਨਾਂ ਨੂੰ better ਕਰਦੀ ਏਂ.</strong> ਕਦੇ ਇੱਕ message ਨਾਲ, ਕਦੇ ਇੱਕ call ਨਾਲ, ਤੇ ਕਦੇ ਸਿਰਫ਼ ਆਪਣੀ presence ਨਾਲ.</p>
+        <p>24 September 2025 ਤੋਂ ਬਾਅਦ, life ਵਿੱਚ ਇੱਕ ਨਵਾਂ favourite chapter add ਹੋ ਗਿਆ. ਤੇਰੇ ਨਾਲ ਗੱਲਾਂ, ਤੇਰੀਆਂ little habits, ਤੇਰਾ cute ਜਿਹਾ attitude — ਸਭ ਕੁਝ ਮੇਰੇ ਲਈ genuinely precious ਆ.</p>
+        <p>ਮੈਂ perfect ਨਹੀਂ, ਮੇਰੀ timing ਵੀ ਕਈ ਵਾਰੀ questionable ਹੁੰਦੀ, ਤੇ jokes… ਉਹ ਤਾਂ ਤੂੰ tolerate ਕਰ ਹੀ ਰਹੀ ਏਂ. ਪਰ ਇੱਕ ਗੱਲ clear ਆ: <strong>ਮੈਂ ਤੈਨੂੰ choose ਕਰਦਾ ਹਾਂ — calm days ਵਿੱਚ ਵੀ, chaotic days ਵਿੱਚ ਵੀ.</strong></p>
+        <p>ਤੂੰ 21 ਦੀ ਏਂ, ਪਰ ਤੇਰੀਆਂ vibes 10/10, standards 11/10, ਤੇ ਮੇਰੇ ਦਿਲ ਤੇ effect unlimited ਆ. ਮੈਂ ਚਾਹੁੰਦਾ ਹਾਂ ਕਿ ਤੈਨੂੰ ਹਮੇਸ਼ਾ ਪਤਾ ਰਹੇ — ਤੂੰ loved ਏਂ, appreciated ਏਂ, ਤੇ ਮੇਰੇ ਲਈ ਬਹੁਤ ਹੀ special ਏਂ.</p>
+        <p>ਬੱਸ ਇੱਕ request: ਹੱਸਦੀ ਰਿਹਾ ਕਰ. ਤੇ ਹਾਂ, ਮੇਰੇ messages ignore ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਘੱਟੋ-ਘੱਟ ਇੱਕ cute emoji ਭੇਜ ਦਿਆ ਕਰ 😭</p>
+        <div class="signature">ਹਮੇਸ਼ਾ ਤੇਰਾ,<br><em>Love ♡</em></div>
+      </article>
+    </section>
+
+    <section class="screen song" id="song">
+      <div class="section-tag reveal">GIRLFRIEND’S DAY • OUR SONG</div>
+      <div class="music-card reveal">
+        <div class="vinyl-wrap"><div class="vinyl" id="record"><span>M<br>×<br>L</span></div><img src="assets/cute-couple.svg" alt="Cute couple" /></div>
+        <div class="music-copy">
+          <p class="kicker">ਤੇਰੇ ਲਈ, ਮੇਰੇ ਵੱਲੋਂ</p>
+          <h2>ਹੁਣ song ਤੂੰ choose ਕਰੇਂਗੀ — <em>main character rights.</em></h2>
+          <p>MUSKAN - LOVE - <code>LOVES</code> YOU</p>
+          <label class="upload">🎵 ਆਪਣਾ song choose ਕਰ<input id="songPicker" type="file" accept="audio/*"></label>
+          <div class="player">
+            <button id="playButton" aria-label="Play song">▶</button>
+            <div class="track-info"><strong id="trackName">Muskan ਵਾਲਾ ਗਾਣਾ</strong><input id="seekBar" type="range" min="0" max="100" value="0"><div><span id="currentTime">0:00</span><span id="duration">0:00</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen final" id="final">
+      <img src="assets/moment-3.svg" class="final-art reveal" alt="Cute flower illustration" />
+      <p class="section-tag reveal">HAPPY GIRLFRIEND’S DAY • ONE LAST THING</p>
+      <h2 class="reveal">Happy Girlfriend’s Day, Muskan.<br><em>ਤੂੰ ਮੇਰੀ favourite girl ਏਂ — no debate, final answer.</em></h2>
+      <p class="reveal">ਤੇ ਇਹ page proof ਆ ਕਿ ਮੈਂ effort ਵੀ ਕਰ ਸਕਦਾ… ਕਦੇ-ਕਦੇ 😌</p>
+      <button class="primary reveal" id="confettiButton">ਇੱਥੇ click ਕਰ, cutie ✨</button>
+      <div class="hidden-note" id="hiddenNote">Happy Girlfriend’s Day, Muskan ♡<br><span>I love you — 24.09.2025 ਤੋਂ, ਅਤੇ ਅੱਗੇ ਵੀ…</span></div>
+    </section>
+  </main>
+
+  <footer>Made professionally for Girlfriend’s Day, with love, humour and slightly too much purple — Love ♡</footer>
+  <audio id="audio" src="assets/our-song.mp3" data-fallback="assets/preview-song.wav" preload="metadata" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
